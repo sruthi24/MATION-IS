@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+ 
+    <siteMapNode url="~/New.aspx" title="Home" description="Home">
+
+      <siteMapNode url="~/Tech.aspx" title="Tech" description="Introduction to the Tech site">
+        <siteMapNode url="~/Tech/Intro.aspx" title="Intro" description="Intro info"/>
+
+        <siteMapNode url="~/Tech/Algo.aspx" title="Algorithm" description="Algorithm info" >
+          <siteMapNode url="~/Tech/Algo/Intro.aspx " title=" Intro" description="Introductio to Algorithm" />
+          <siteMapNode url="~/Tech/Algo/Search.aspx " title=" Search" description="Search Binary Tree" />
+          <siteMapNode url="~/Tech/Algo/Sort.aspx " title=" Sort" description="Sort  Algorithm" />
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="~/Recipes.aspx" title="Recipes" description="Introduction to the Recipes site">
+        <siteMapNode url="~/Recipes/VegKurma.aspx" title="VegKurma"
+     description="Cooking Recipe"/>
+      </siteMapNode>
+      <siteMapNode url="~/Beauty.aspx" title="Beauty" description="Introduction to the beauty shru">
+        <siteMapNode url="~/Beauty/AntiTan.aspx" title="AntiTanFacial"
+     description="Learn About AntiTanFacial"/>
+      </siteMapNode>
+      <siteMapNode url="~/Miscellanous.aspx" title="Miscellanous" description="Introduction to the Tech site">
+        <siteMapNode url="~/Miscellanous/Other.aspx" title="Other"
+     description="Interesting content"/>
+      </siteMapNode>
+    </siteMapNode>
+   
+</siteMap>

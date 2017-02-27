@@ -1,0 +1,475 @@
+﻿
+#reg{
+height: 430px;
+width:300px;
+background-color:black;
+
+}
+
+body {
+   height:100%;
+   width:100%;
+    /*width:1349px;*/
+    margin-top:-41px;
+    font-family:Verdana;
+}
+
+#neww{
+padding-left:10px;
+}
+#map {
+    margin-left:100px;
+        height: 400px;
+        width:800px;
+      }
+
+#myAnchor,#frg{
+color: black;
+}
+#ht{
+    visibility: hidden;
+}
+.header{
+background-color:darkgray; height:70px; width:1366px;
+    font-family:Verdana;
+    margin-top:-20px;
+}
+treeview
+{
+/*/background-color:#cec7c7;*/
+}
+}
+#footer{
+   background-color:white; height:20px; width:1333px
+}
+.parentcontent{
+    height :500px;width:300px;float:right;
+     /*background-color:#fbf3f3/*;*/
+}
+.bod{
+    height:561px ;width:1355px;
+    background-color:#cec7c7;
+}
+#parentcontent,#contentbar,#treeview,#body,.treeview2{
+/*background-color:#cec7c7;*/
+}
+p, h1, h4 {
+    margin-left: 20px;
+}
+
+.star{
+   color:red;
+ 
+}
+
+#forFirstname,#forLastName,#forEmail,#forPwd,#forContact,#forZipCode,#forState,#forCity,#forAddress1,#forAddress2,#forCountry{
+      visibility: hidden;
+}
+
+h2{
+    text-align:center;
+}
+
+#Reg_Register{
+    margin-left: 20px;
+}
+.tb2 {
+    width: 220px;
+    height: 18px;
+    margin-bottom: 14px;
+}
+
+
+.tb3{
+    width: 220px;
+    height: 40px;
+    margin-bottom:14px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+ .target {
+    width:50%;
+    height:200px;
+    border:solid black 1px; 
+}
+ .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 5px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+ .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 5px;
+    margin-left: 50px;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.target > div {
+    display:none;
+}
+
+.target > div:target{
+    display:block;
+}
+
+.overlcontent{
+
+     position: relative;
+    top: 25%; /* 25% from the top */
+    width: 300px; /* 100% width */
+    height:530px;
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; 
+color:black
+}
+
+/
+
+
+
+.navbar{
+
+    width:1033px;
+    height:100px;
+
+}
+
+.contentbar
+ {
+      /*background-color:#fbf3f3/*;*/*/
+    height:460px; width:300px}
+
+.treeview{
+
+    height:540px;width:1033px; text-align:justify; float: left
+}
+
+.treeview2{
+
+    height:480px;width:300px;  float: left
+}
+
+.parentcontent2{
+
+     height :480px;width:1033px;float:right
+}
+#menubar2{
+width:1350px;
+height: 20px;
+    text-align: center;
+    margin-left: 116px;
+
+}
+
+
+.menubar{
+        /*// height:40px; width:1130px*/
+}
+.contentbar2{
+/*background-color:#cec7c7;*/
+background-color:white;
+ height:480px; width:1130px;
+border-bottom-color:black;
+/*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important*/
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 15px;;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+
+#ppcnt{
+    margin-top:10px;
+    padding:5px 10px;
+  
+background-color:#fbf3f3;
+height:500px;
+width:250px;
+}
+
+#heyya{
+    
+    margin-top:10px;
+    padding:5px 10px;
+  
+background-color:#fbf3f3;
+height:0px;
+width:0px;
+}
+}
+
+}
+#textareacontainer, #iframecontainer {
+  box-shadow:initial;
+  
+    min-width: 150px;
+    box-sizing: border-box;
+   
+}
+
+.container3 {
+       /*margin-left:-9px;*/
+       border-color:black;
+       /*border-style:solid*/
+        /*background-color:#fbf3f3;*/
+}  
+   
+
+.container4
+{
+height:309px;
+width:300px;
+}
+
+a{
+        
+}
+#iframecontainer{
+  background-color:white;
+  float: right;
+    height: 540px;
+
+   width:1155px;
+     overflow:hidden;
+}
+#textareacontainer{
+   
+    float: left;
+    height:570px;
+     width:200px;
+  background-color:rgba(0,0,0,0.12) ;
+      overflow:hidden;
+}
+
+p{
+   margin-left:20px; margin-right;
+}
+#grad4{
+    
+     border: 0;
+    height: 1px;
+   /*background-color: #c0c0c0;*/
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+/*@media screen and (max-width:10px)
+{
+    #textareacontainer { display: none; }
+    #textareawrapper { display: none; }
+}*/
+#container {
+  
+    width: 1355px;
+    /*// height:480px;*/
+    overflow: hidden;
+    /*overflow: auto;*/
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    
+
+    /*// height: 100%;*/
+}
+#container2 {
+  
+    width: 1366px;
+    /*// height:480px;*/
+    overflow: hidden;
+    /*overflow: auto;*/
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    background-color:#eee8e8;
+        ;
+    /*// height: 100%;*/
+}
+
+  
+/*css form menu bar ends here The Menu gets a white border on all four sides.*/
+.MainMenu
+{
+  
+    
+  
+  border: 1px solid #999999;
+  width: 1200px;
+  height: 50px;
+  background-color: #555555;
+}
+
+  .MainMenu ul li
+  {
+    
+   
+  
+    width: 220px;
+ 
+}
+
+  ul.level1
+{
+/* Defines the appearance of main menu items. */
+font-size: 16px;
+/*font-weight: bold;*/
+height: 50px;
+line-height: 25px;
+margin-left:5px;
+
+
+}
+ul.level1 .selected,ul.level3 .selected
+{
+/* Defines the appearance of active menu items. */
+background-color: #509EE7;
+ /*background-image: url('Images/Untitled.png');*/
+}
+ul.level2 .selected
+{
+/* Defines the appearance of active menu items. */
+background-color: #509EE7;
+ background-image: url('Images/Untitled.png');
+}
+ul.level3 .selected
+{
+/* Defines the appearance of active menu items. */
+background-color: #509EE7;
+ background-image: url('Images/Untitled.png');
+}
+
+a.level1 {
+    /* Adds some white space to the left of the main menu item text.
+!important is used to overrule the in-line CSS that the menu generates */
+    padding-left: 5px !important;
+    background-color: #555555;
+}
+a.level2
+{
+/* Defines the appearance of the sub menu items. */
+background-color: #555555;
+/*background-image: url('Images/Untitled.png');*/
+padding-left: 8px;
+
+}
+a.level3
+{
+/* Defines the appearance of the sub menu items. */
+background-color: #555555;
+background-image: url('Images/Untitled.png');
+padding-left: 8px;
+
+}
+/*a.level3
+{
+/* Defines the appearance of the sub menu items. */
+
+/*padding-left: 8px;
+background-image: url('Images/Untitled.png');
+}*/
+a.level4
+{
+/* Defines the appearance of the sub menu items. */
+
+padding-left: 8px;
+background-image: url('Images/Untitled.png');
+}
+  a.level1:hover,a.level2:hover,a.level3.hover,a.level4:hover
+{
+/* Defines the hover style for the main and sub items. */
+background-color: #509EE7;
+background-image: url('Images/Untitled.png');
+}
+ul.level2.hover{
+background-image: url('Images/Untitled.png');
+}
+ul.level3.hover{
+background-image: url('Images/Untitled.png');
+}
+#error4
+{
+    width:238px;
+}
+#Navt
+{
+  
+    
+  
+  border: 1px solid #999999;
+  width: 1155px;
+  height: 50px;
+  background-color: #555555;
+}
+
+  #Navt ul li
+  {
+    
+   
+  
+    width: 220px;
+ 
+}
+
+
+ 

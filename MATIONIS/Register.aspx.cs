@@ -22,7 +22,7 @@ public partial class Register : System.Web.UI.Page
        
 
       
-       
+       /* This is the start of the code*/s
         string address=null ;
         SqlDataReader reader;
         SqlDataReader reader2;
